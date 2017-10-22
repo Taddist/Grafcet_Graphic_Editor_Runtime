@@ -19,43 +19,43 @@
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_EeWlELcNEeeEntUz2F083g" source="GMF_DIAGRAMS">
       <data xmi:type="notation:Diagram" xmi:id="_EeWlEbcNEeeEntUz2F083g" type="Sirius" element="_Edg3kLcNEeeEntUz2F083g" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_MiAScLcNEeeEntUz2F083g" type="2001" element="_MhcRwLcNEeeEntUz2F083g">
-          <children xmi:type="notation:Node" xmi:id="_MiFK8LcNEeeEntUz2F083g" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_MiFK8bcNEeeEntUz2F083g" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_t2VKULdDEeehyY8LBaybqw" type="2001" element="_t1_zILdDEeehyY8LBaybqw">
+          <children xmi:type="notation:Node" xmi:id="_t2jz0LdDEeehyY8LBaybqw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t2jz0bdDEeehyY8LBaybqw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_MiJcYLcNEeeEntUz2F083g" type="3003" element="_MhofALcNEeeEntUz2F083g">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_MiJcYbcNEeeEntUz2F083g" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MiJcYrcNEeeEntUz2F083g"/>
+          <children xmi:type="notation:Node" xmi:id="_t2uL4LdDEeehyY8LBaybqw" type="3003" element="_t2AaMLdDEeehyY8LBaybqw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_t2uL4bdDEeehyY8LBaybqw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2uL4rdDEeehyY8LBaybqw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_MiA5gLcNEeeEntUz2F083g" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MiA5gbcNEeeEntUz2F083g" width="50" height="50"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_t2VKUbdDEeehyY8LBaybqw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2VKUrdDEeehyY8LBaybqw" width="50" height="50"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_MiHAILcNEeeEntUz2F083g" type="2001" element="_MhuloLcNEeeEntUz2F083g">
-          <children xmi:type="notation:Node" xmi:id="_MiHnMLcNEeeEntUz2F083g" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_MiHnMbcNEeeEntUz2F083g" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_t2lpALdDEeehyY8LBaybqw" type="2001" element="_t2BBQLdDEeehyY8LBaybqw">
+          <children xmi:type="notation:Node" xmi:id="_t2qhgLdDEeehyY8LBaybqw" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t2qhgbdDEeehyY8LBaybqw" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_MiKqgLcNEeeEntUz2F083g" type="3003" element="_MhulobcNEeeEntUz2F083g">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_MiKqgbcNEeeEntUz2F083g" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MiKqgrcNEeeEntUz2F083g"/>
+          <children xmi:type="notation:Node" xmi:id="_t2xPMLdDEeehyY8LBaybqw" type="3003" element="_t2BoULdDEeehyY8LBaybqw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_t2xPMbdDEeehyY8LBaybqw" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2xPMrdDEeehyY8LBaybqw"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_MiHAIbcNEeeEntUz2F083g" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MiHAIrcNEeeEntUz2F083g" x="156" width="50" height="50"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_t2lpAbdDEeehyY8LBaybqw" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2lpArdDEeehyY8LBaybqw" x="108" width="50" height="50"/>
         </children>
         <styles xmi:type="notation:DiagramStyle" xmi:id="_EeWlErcNEeeEntUz2F083g"/>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_MhcRwLcNEeeEntUz2F083g" name="1" width="5" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t1_zILdDEeehyY8LBaybqw" name="1" width="5" height="5" resizeKind="NSEW">
       <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.0"/>
       <semanticElements xmi:type="Grafcet:Step" href="My.grafcet#//@elements.0"/>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_MhofALcNEeeEntUz2F083g" showIcon="false" labelPosition="node" width="5" height="5" color="255,255,255">
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_t2AaMLdDEeehyY8LBaybqw" showIcon="false" labelPosition="node" width="5" height="5" color="255,255,255">
         <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_MhuloLcNEeeEntUz2F083g" name="2" width="5" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2BBQLdDEeehyY8LBaybqw" name="2" width="5" height="5" resizeKind="NSEW">
       <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.1"/>
       <semanticElements xmi:type="Grafcet:Step" href="My.grafcet#//@elements.1"/>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_MhulobcNEeeEntUz2F083g" showIcon="false" labelPosition="node" width="5" height="5" color="255,255,255">
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_t2BoULdDEeehyY8LBaybqw" showIcon="false" labelPosition="node" width="5" height="5" color="255,255,255">
         <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']"/>
