@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Grafcet:Grafcet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Grafcet="http://Grafcet.fr" name="Ensias">
+  <elements xsi:type="Grafcet:Step" name="1"/>
+  <elements xsi:type="Grafcet:Step" name="2" incomingConnections="//@elements.0"/>
+</Grafcet:Grafcet>
