@@ -7,61 +7,455 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_DZi5ILcNEeeEntUz2F083g">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_EdqBgLcNEeeEntUz2F083g" name="new Grafcet Diagram" repPath="#_Edg3kLcNEeeEntUz2F083g">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_untI98fWEee5rZGshzw9ZQ" name="Grafcet Diagram" repPath="#_untI4MfWEee5rZGshzw9ZQ">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']"/>
         <target xmi:type="Grafcet:Grafcet" href="My.grafcet#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram xmi:id="_Edg3kLcNEeeEntUz2F083g" name="new Grafcet Diagram">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_EdjT0LcNEeeEntUz2F083g" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_EdjT0bcNEeeEntUz2F083g"/>
+  <diagram:DSemanticDiagram xmi:id="_untI4MfWEee5rZGshzw9ZQ" name="Grafcet Diagram">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_untI4cfWEee5rZGshzw9ZQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_untI4sfWEee5rZGshzw9ZQ"/>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_EeWlELcNEeeEntUz2F083g" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_EeWlEbcNEeeEntUz2F083g" type="Sirius" element="_Edg3kLcNEeeEntUz2F083g" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_t2VKULdDEeehyY8LBaybqw" type="2001" element="_t1_zILdDEeehyY8LBaybqw">
-          <children xmi:type="notation:Node" xmi:id="_t2jz0LdDEeehyY8LBaybqw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_t2jz0bdDEeehyY8LBaybqw" y="5"/>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_untv8MfWEee5rZGshzw9ZQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_untv8cfWEee5rZGshzw9ZQ" type="Sirius" element="_untI4MfWEee5rZGshzw9ZQ" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_unuXAMfWEee5rZGshzw9ZQ" type="2001" element="_untI5MfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_unvlIMfWEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_unvlIcfWEee5rZGshzw9ZQ" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_t2uL4LdDEeehyY8LBaybqw" type="3003" element="_t2AaMLdDEeehyY8LBaybqw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_t2uL4bdDEeehyY8LBaybqw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2uL4rdDEeehyY8LBaybqw"/>
+          <children xmi:type="notation:Node" xmi:id="_uoAD0MfWEee5rZGshzw9ZQ" type="3005" element="_untI5cfWEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uoAD0cfWEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uoAD0sfWEee5rZGshzw9ZQ"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_t2VKUbdDEeehyY8LBaybqw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2VKUrdDEeehyY8LBaybqw" width="50" height="50"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_unuXAcfWEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_unuXAsfWEee5rZGshzw9ZQ" x="516" y="48" width="49" height="48"/>
         </children>
-        <children xmi:type="notation:Node" xmi:id="_t2lpALdDEeehyY8LBaybqw" type="2001" element="_t2BBQLdDEeehyY8LBaybqw">
-          <children xmi:type="notation:Node" xmi:id="_t2qhgLdDEeehyY8LBaybqw" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_t2qhgbdDEeehyY8LBaybqw" y="5"/>
+        <children xmi:type="notation:Node" xmi:id="_unwMMsfWEee5rZGshzw9ZQ" type="2001" element="_untI6MfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_unwMNcfWEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_unwMNsfWEee5rZGshzw9ZQ" y="5"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_t2xPMLdDEeehyY8LBaybqw" type="3003" element="_t2BoULdDEeehyY8LBaybqw">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_t2xPMbdDEeehyY8LBaybqw" fontName="Ubuntu"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2xPMrdDEeehyY8LBaybqw"/>
+          <children xmi:type="notation:Node" xmi:id="_uoAq48fWEee5rZGshzw9ZQ" type="3003" element="_untI6cfWEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_uoAq5MfWEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uoAq5cfWEee5rZGshzw9ZQ"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_t2lpAbdDEeehyY8LBaybqw" fontName="Ubuntu" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_t2lpArdDEeehyY8LBaybqw" x="108" width="50" height="50"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_unwMM8fWEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_unwMNMfWEee5rZGshzw9ZQ" x="522" y="168" width="50" height="50"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_EeWlErcNEeeEntUz2F083g"/>
+        <children xmi:type="notation:Node" xmi:id="_gDy-EMfXEee5rZGshzw9ZQ" type="2001" element="_gDsQYMfXEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_gDzlIMfXEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_gDzlIcfXEee5rZGshzw9ZQ" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gD2BYMfXEee5rZGshzw9ZQ" type="3005" element="_gDsQYcfXEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_gD2BYcfXEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gD2BYsfXEee5rZGshzw9ZQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_gDy-EcfXEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gDy-EsfXEee5rZGshzw9ZQ" x="524" y="240" width="53" height="18"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_sm_RgMfaEee5rZGshzw9ZQ" type="2001" element="_sm7AEMfaEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_sm_Rg8faEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_sm_RhMfaEee5rZGshzw9ZQ" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_sm_4kMfaEee5rZGshzw9ZQ" type="3005" element="_sm7AEcfaEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_sm_4kcfaEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sm_4ksfaEee5rZGshzw9ZQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_sm_RgcfaEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sm_RgsfaEee5rZGshzw9ZQ" x="524" y="396" width="59" height="20"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_E95J8MfmEee5rZGshzw9ZQ" type="2001" element="_E92GoMfmEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_E95xAMfmEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_E95xAcfmEee5rZGshzw9ZQ" y="-13"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E96YEMfmEee5rZGshzw9ZQ" type="3005" element="_E92GocfmEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_E96YEcfmEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E96YEsfmEee5rZGshzw9ZQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_E95J8cfmEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E95J8sfmEee5rZGshzw9ZQ" x="524" y="528" width="60" height="24"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_61--cMfoEee5rZGshzw9ZQ" type="2001" element="_611NcMfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_61_lgMfoEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_61_lgcfoEee5rZGshzw9ZQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62AzoMfoEee5rZGshzw9ZQ" type="3003" element="_6110gMfoEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_62AzocfoEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62AzosfoEee5rZGshzw9ZQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_61--ccfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_61--csfoEee5rZGshzw9ZQ" x="529" y="444" width="50" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_61_lgsfoEee5rZGshzw9ZQ" type="2001" element="_614QwMfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62AMkMfoEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_62AMkcfoEee5rZGshzw9ZQ" y="-21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62BasMfoEee5rZGshzw9ZQ" type="3005" element="_614QwcfoEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_62BascfoEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62BassfoEee5rZGshzw9ZQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_61_lg8foEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_61_lhMfoEee5rZGshzw9ZQ" x="516" y="120" width="61" height="24"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_62AMksfoEee5rZGshzw9ZQ" type="2001" element="_613CoMfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62AMlcfoEee5rZGshzw9ZQ" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_62AMlsfoEee5rZGshzw9ZQ" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62Bas8foEee5rZGshzw9ZQ" type="3005" element="_613CocfoEee5rZGshzw9ZQ">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_62BatMfoEee5rZGshzw9ZQ" fontName="Ubuntu"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62BatcfoEee5rZGshzw9ZQ"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_62AMk8foEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62AMlMfoEee5rZGshzw9ZQ" x="522" y="300" width="58" height="55"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_untv8sfWEee5rZGshzw9ZQ"/>
+        <edges xmi:type="notation:Edge" xmi:id="_a8xSiMfaEee5rZGshzw9ZQ" visible="false" type="4001" element="_a8wEYMfaEee5rZGshzw9ZQ" source="_gDy-EMfXEee5rZGshzw9ZQ" target="_unwMMsfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_a8xSjMfaEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8xSjcfaEee5rZGshzw9ZQ" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a8xSjsfaEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8xSj8faEee5rZGshzw9ZQ" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_a8xSkMfaEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8xSkcfaEee5rZGshzw9ZQ" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_a8xSicfaEee5rZGshzw9ZQ"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_a8xSisfaEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a8xSi8faEee5rZGshzw9ZQ" points="[420, 384, 420, 384]$[420, 276, 420, 276]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a8xSksfaEee5rZGshzw9ZQ" id="(0.5566037735849056,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a8xSk8faEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_hJprgMfaEee5rZGshzw9ZQ" type="4001" element="_hJkL8sfaEee5rZGshzw9ZQ" source="_gDy-EMfXEee5rZGshzw9ZQ" target="_unwMMsfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_hJq5oMfaEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hJq5ocfaEee5rZGshzw9ZQ" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hJrgsMfaEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hJrgscfaEee5rZGshzw9ZQ" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hJsHwMfaEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hJsHwcfaEee5rZGshzw9ZQ" x="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_hJprgcfaEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_hJprgsfaEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hJprg8faEee5rZGshzw9ZQ" points="[-6, -9, 0, 47]$[-6, -31, 0, 25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hJsHwsfaEee5rZGshzw9ZQ" id="(0.5566037735849056,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hJsHw8faEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_E96YE8fmEee5rZGshzw9ZQ" type="4001" element="_E92tsMfmEee5rZGshzw9ZQ" source="_E95J8MfmEee5rZGshzw9ZQ" target="_unuXAMfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_E96YF8fmEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E96YGMfmEee5rZGshzw9ZQ" x="266" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E96_IMfmEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E96_IcfmEee5rZGshzw9ZQ" x="26" y="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_E96_IsfmEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_E96_I8fmEee5rZGshzw9ZQ" x="25" y="6"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_E96YFMfmEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_E96YFcfmEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E96YFsfmEee5rZGshzw9ZQ" points="[0, 19, 18, 451]$[0, 48, 18, 480]$[-114, 48, -96, 480]$[-114, -451, -96, -19]$[-42, -451, -24, -19]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E96_JMfmEee5rZGshzw9ZQ" id="(0.5666666666666667,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E96_JcfmEee5rZGshzw9ZQ" id="(0.4897959183673469,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_62CBwMfoEee5rZGshzw9ZQ" type="4001" element="_615e4MfoEee5rZGshzw9ZQ" source="_61_lgsfoEee5rZGshzw9ZQ" target="_unwMMsfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62CBxMfoEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62CBxcfoEee5rZGshzw9ZQ" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62CBxsfoEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62CBx8foEee5rZGshzw9ZQ" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62CByMfoEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62CBycfoEee5rZGshzw9ZQ" x="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_62CBwcfoEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_62CBwsfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62CBw8foEee5rZGshzw9ZQ" points="[-10, 10, -7, -53]$[-10, 38, -7, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62Co0MfoEee5rZGshzw9ZQ" id="(0.5655737704918032,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62Co0cfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_62Co0sfoEee5rZGshzw9ZQ" type="4001" element="_616F8MfoEee5rZGshzw9ZQ" source="_gDy-EMfXEee5rZGshzw9ZQ" target="_62AMksfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62Co1sfoEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62Co18foEee5rZGshzw9ZQ" x="22" y="11"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62Co2MfoEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62Co2cfoEee5rZGshzw9ZQ" x="4" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62Co2sfoEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62Co28foEee5rZGshzw9ZQ" x="2" y="-10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_62Co08foEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_62Co1MfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62Co1cfoEee5rZGshzw9ZQ" points="[-7, 8, -8, -70]$[-7, 51, -8, -27]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62Co3MfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62Co3cfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_62DP4MfoEee5rZGshzw9ZQ" type="4001" element="_616F88foEee5rZGshzw9ZQ" source="_sm_RgMfaEee5rZGshzw9ZQ" target="_61--cMfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62DP5MfoEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62DP5cfoEee5rZGshzw9ZQ" y="2"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62DP5sfoEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62DP58foEee5rZGshzw9ZQ" x="-1" y="-1"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62DP6MfoEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62DP6cfoEee5rZGshzw9ZQ" x="-11" y="3"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_62DP4cfoEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_62DP4sfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62DP48foEee5rZGshzw9ZQ" points="[-1, 9, -2, -54]$[-1, 38, -2, -25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62D28MfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62D28cfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_62D28sfoEee5rZGshzw9ZQ" type="4001" element="_616tAMfoEee5rZGshzw9ZQ" source="_61_lgsfoEee5rZGshzw9ZQ" target="_unuXAMfWEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62D29sfoEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62D298foEee5rZGshzw9ZQ" x="-3"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62D2-MfoEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62D2-cfoEee5rZGshzw9ZQ" x="1" y="-63"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62D2-sfoEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62D2-8foEee5rZGshzw9ZQ" x="-14"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_62D288foEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_62D29MfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62D29cfoEee5rZGshzw9ZQ" points="[-10, -10, 0, 48]$[-10, -35, 0, 23]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62EeAMfoEee5rZGshzw9ZQ" id="(0.5655737704918032,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62EeAcfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_62EeAsfoEee5rZGshzw9ZQ" type="4001" element="_617UEMfoEee5rZGshzw9ZQ" source="_sm_RgMfaEee5rZGshzw9ZQ" target="_62AMksfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62EeBsfoEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62EeB8foEee5rZGshzw9ZQ" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62FFEMfoEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62FFEcfoEee5rZGshzw9ZQ" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62FFEsfoEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62FFE8foEee5rZGshzw9ZQ" x="-23" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_62EeA8foEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_62EeBMfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62EeBcfoEee5rZGshzw9ZQ" points="[-5, -10, -3, 69]$[-5, -52, -3, 27]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62FFFMfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62FFFcfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_62FFFsfoEee5rZGshzw9ZQ" type="4001" element="_617UE8foEee5rZGshzw9ZQ" source="_E95J8MfmEee5rZGshzw9ZQ" target="_61--cMfoEee5rZGshzw9ZQ">
+          <children xmi:type="notation:Node" xmi:id="_62FFGsfoEee5rZGshzw9ZQ" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62FFG8foEee5rZGshzw9ZQ" x="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62FFHMfoEee5rZGshzw9ZQ" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62FFHcfoEee5rZGshzw9ZQ" x="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_62FFHsfoEee5rZGshzw9ZQ" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_62FFH8foEee5rZGshzw9ZQ" x="-12" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_62FFF8foEee5rZGshzw9ZQ" routing="Rectilinear"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_62FFGMfoEee5rZGshzw9ZQ" fontName="Ubuntu" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_62FFGcfoEee5rZGshzw9ZQ" points="[-6, -10, -2, 59]$[-6, -44, -2, 25]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62FsIMfoEee5rZGshzw9ZQ" id="(0.575,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62FsIcfoEee5rZGshzw9ZQ" id="(0.5,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t1_zILdDEeehyY8LBaybqw" name="1" width="5" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_untI5MfWEee5rZGshzw9ZQ" name="1" incomingEdges="_untI8MfWEee5rZGshzw9ZQ _a8uPMMfaEee5rZGshzw9ZQ _dze_8MflEee5rZGshzw9ZQ _E92tsMfmEee5rZGshzw9ZQ _616tAMfoEee5rZGshzw9ZQ" width="-1" height="-1" resizeKind="NSEW">
       <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.0"/>
       <semanticElements xmi:type="Grafcet:Step" href="My.grafcet#//@elements.0"/>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_t2AaMLdDEeehyY8LBaybqw" showIcon="false" labelPosition="node" width="5" height="5" color="255,255,255">
-        <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']/@style"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_untI5cfWEee5rZGshzw9ZQ" showIcon="false" labelPosition="node" workspacePath="/my.project.design/icons/double.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeIni']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']"/>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeIni']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_t2BBQLdDEeehyY8LBaybqw" name="2" width="5" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_untI6MfWEee5rZGshzw9ZQ" name="2" incomingEdges="_untI88fWEee5rZGshzw9ZQ _a8wEYMfaEee5rZGshzw9ZQ _hJkL8sfaEee5rZGshzw9ZQ _615e4MfoEee5rZGshzw9ZQ" width="5" height="5" resizeKind="NSEW">
       <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.1"/>
       <semanticElements xmi:type="Grafcet:Step" href="My.grafcet#//@elements.1"/>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_t2BoULdDEeehyY8LBaybqw" showIcon="false" labelPosition="node" width="5" height="5" color="255,255,255">
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_untI6cfWEee5rZGshzw9ZQ" showIcon="false" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="5" height="5" color="255,255,255">
         <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']"/>
     </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_611NcMfoEee5rZGshzw9ZQ" name="4" incomingEdges="_616F88foEee5rZGshzw9ZQ _617UE8foEee5rZGshzw9ZQ" width="5" height="5" resizeKind="NSEW">
+      <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.3"/>
+      <semanticElements xmi:type="Grafcet:Step" href="My.grafcet#//@elements.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_6110gMfoEee5rZGshzw9ZQ" showIcon="false" borderSize="2" borderSizeComputationExpression="2" labelPosition="node" width="5" height="5" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_614QwMfoEee5rZGshzw9ZQ" name="c1" outgoingEdges="_615e4MfoEee5rZGshzw9ZQ _616tAMfoEee5rZGshzw9ZQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.4"/>
+      <semanticElements xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.4"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_614QwcfoEee5rZGshzw9ZQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/my.project.design/icons/transition.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_gDsQYMfXEee5rZGshzw9ZQ" name="c2" outgoingEdges="_gDusoMfXEee5rZGshzw9ZQ _a8wEYMfaEee5rZGshzw9ZQ _hJkL8sfaEee5rZGshzw9ZQ _616F8MfoEee5rZGshzw9ZQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.5"/>
+      <semanticElements xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_gDsQYcfXEee5rZGshzw9ZQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/my.project.design/icons/transition.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_sm7AEMfaEee5rZGshzw9ZQ" name="c3" outgoingEdges="_616F88foEee5rZGshzw9ZQ _617UEMfoEee5rZGshzw9ZQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.6"/>
+      <semanticElements xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.6"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_sm7AEcfaEee5rZGshzw9ZQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/my.project.design/icons/transition.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_E92GoMfmEee5rZGshzw9ZQ" name="c4" outgoingEdges="_E92tsMfmEee5rZGshzw9ZQ _617UE8foEee5rZGshzw9ZQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.7"/>
+      <semanticElements xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.7"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_E92GocfmEee5rZGshzw9ZQ" showIcon="false" labelAlignment="RIGHT" workspacePath="/my.project.design/icons/transition.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_untI8MfWEee5rZGshzw9ZQ" visible="false" targetNode="_untI5MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_untI8cfWEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="tree" strokeColor="138,226,52">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='iniTransition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_untI8sfWEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='iniTransition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_untI88fWEee5rZGshzw9ZQ" visible="false" targetNode="_untI6MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_untI9MfWEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_untI9cfWEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_gDusoMfXEee5rZGshzw9ZQ" visible="false" sourceNode="_gDsQYMfXEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_gDvTsMfXEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" strokeColor="252,175,62">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transition']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_gDvTscfXEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transition']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_a8uPMMfaEee5rZGshzw9ZQ" visible="false" targetNode="_untI5MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_a8vdUMfaEee5rZGshzw9ZQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='tran']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_a8vdUcfaEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='tran']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_a8wEYMfaEee5rZGshzw9ZQ" visible="false" sourceNode="_gDsQYMfXEee5rZGshzw9ZQ" targetNode="_untI6MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_a8wEYcfaEee5rZGshzw9ZQ" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='tran']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_a8wEYsfaEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='tran']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_hJkL8sfaEee5rZGshzw9ZQ" sourceNode="_gDsQYMfXEee5rZGshzw9ZQ" targetNode="_untI6MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_hJkL88faEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_hJkL9MfaEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_dze_8MflEee5rZGshzw9ZQ" visible="false" targetNode="_untI5MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_dze_8cflEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="239,41,41">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='final']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_dze_8sflEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='final']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_E92tsMfmEee5rZGshzw9ZQ" sourceNode="_E92GoMfmEee5rZGshzw9ZQ" targetNode="_untI5MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_E92tscfmEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_E92tssfmEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_613CoMfoEee5rZGshzw9ZQ" name="3" incomingEdges="_616F8MfoEee5rZGshzw9ZQ _617UEMfoEee5rZGshzw9ZQ" width="-1" height="-1" resizeKind="NSEW">
+      <target xmi:type="Grafcet:Step" href="My.grafcet#//@elements.2"/>
+      <semanticElements xmi:type="Grafcet:Step" href="My.grafcet#//@elements.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_613CocfoEee5rZGshzw9ZQ" showIcon="false" labelPosition="node" workspacePath="/my.project.design/icons/active.png">
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeActive']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeActive']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_615e4MfoEee5rZGshzw9ZQ" sourceNode="_614QwMfoEee5rZGshzw9ZQ" targetNode="_untI6MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_615e4cfoEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_615e4sfoEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_616F8MfoEee5rZGshzw9ZQ" sourceNode="_gDsQYMfXEee5rZGshzw9ZQ" targetNode="_613CoMfoEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.5"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_616F8cfoEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_616F8sfoEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_616F88foEee5rZGshzw9ZQ" sourceNode="_sm7AEMfaEee5rZGshzw9ZQ" targetNode="_611NcMfoEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_616F9MfoEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_616F9cfoEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_616tAMfoEee5rZGshzw9ZQ" sourceNode="_614QwMfoEee5rZGshzw9ZQ" targetNode="_untI5MfWEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.4"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_616tAcfoEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_616tAsfoEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_617UEMfoEee5rZGshzw9ZQ" sourceNode="_sm7AEMfaEee5rZGshzw9ZQ" targetNode="_613CoMfoEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.6"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_617UEcfoEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_617UEsfoEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_617UE8foEee5rZGshzw9ZQ" sourceNode="_E92GoMfmEee5rZGshzw9ZQ" targetNode="_611NcMfoEee5rZGshzw9ZQ">
+      <target xmi:type="Grafcet:Transition" href="My.grafcet#//@elements.7"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_617UFMfoEee5rZGshzw9ZQ" targetArrow="NoDecoration" size="2" routingStyle="manhattan" strokeColor="0,0,0">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_617UFcfoEee5rZGshzw9ZQ"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']"/>
+    </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_EdjT07cNEeeEntUz2F083g"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_untI9sfWEee5rZGshzw9ZQ"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/my.project.design/description/project.odesign#//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer"/>
     <target xmi:type="Grafcet:Grafcet" href="My.grafcet#/"/>
   </diagram:DSemanticDiagram>

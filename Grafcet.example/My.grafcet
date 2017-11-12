@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Grafcet:Grafcet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Grafcet="http://Grafcet.fr" name="Ensias">
-  <elements xsi:type="Grafcet:Step" location="" name="1" isInitial="true" isActive="true"/>
-  <elements xsi:type="Grafcet:Step" name="2" incomingConnections="//@elements.0"/>
+  <elements xsi:type="Grafcet:Step" location="" name="1" isInitial="true" isActive="true" action="Do action 1" incomingConnections="//@elements.3" outgoingConnections="//@elements.1"/>
+  <elements xsi:type="Grafcet:Step" name="2" incomingConnections="//@elements.0" outgoingConnections="//@elements.2"/>
+  <elements xsi:type="Grafcet:Step" location="" name="3" isActive="true"/>
+  <elements xsi:type="Grafcet:Step" name="4" incomingConnections="//@elements.2" outgoingConnections="//@elements.0"/>
+  <elements xsi:type="Grafcet:Transition" name="tr1" condition="c1" incomingConnections="//@elements.0" outgoingConnections="//@elements.1"/>
+  <elements xsi:type="Grafcet:Transition" name="tr2" condition="c2" incomingConnections="//@elements.1" outgoingConnections="//@elements.2"/>
+  <elements xsi:type="Grafcet:Transition" name="tr3" condition="c3" incomingConnections="//@elements.2" outgoingConnections="//@elements.3"/>
+  <elements xsi:type="Grafcet:Transition" location="" name="tr4" condition="c4" incomingConnections="//@elements.3" outgoingConnections="//@elements.0"/>
 </Grafcet:Grafcet>
