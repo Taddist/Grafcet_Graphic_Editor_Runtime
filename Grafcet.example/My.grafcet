@@ -8,4 +8,6 @@
   <elements xsi:type="Grafcet:Transition" name="tr2" condition="c2" incomingConnections="//@elements.1" outgoingConnections="//@elements.2"/>
   <elements xsi:type="Grafcet:Transition" name="tr3" condition="c3" incomingConnections="//@elements.2" outgoingConnections="//@elements.3"/>
   <elements xsi:type="Grafcet:Transition" location="" name="tr4" condition="c4" incomingConnections="//@elements.3" outgoingConnections="//@elements.0"/>
+  <elements xsi:type="Grafcet:Step" name="11"/>
+  <elements xsi:type="Grafcet:Transition" name="tr11" condition="c11" incomingConnections="//@elements.0" outgoingConnections="//@elements.8"/>
 </Grafcet:Grafcet>
