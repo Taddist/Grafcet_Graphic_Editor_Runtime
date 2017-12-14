@@ -12,7 +12,7 @@
           </style>
         </nodeMappings>
         <nodeMappings name="StepNode" semanticCandidatesExpression="aql:self.elements -> select(p | not(p.isInitial) and not(p.isActive))" domainClass="Grafcet::Step">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/S.png">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/Step.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
@@ -46,7 +46,7 @@
           </style>
         </edgeMappings>
         <toolSections name="Tools">
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateInitialStep" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeIni']" iconPath="/my.project.design/icons/Sdouble.png">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Initial Step" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeIni']" iconPath="/my.project.design/icons/Sdouble.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -57,7 +57,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateActiveStep" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeActive']" iconPath="/my.project.design/icons/Sactive.png">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Active Step" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeActive']" iconPath="/my.project.design/icons/Sactive.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -68,7 +68,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateStep" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']" iconPath="/my.project.design/icons/S.png">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Step" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']" iconPath="/my.project.design/icons/Step.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
@@ -77,7 +77,7 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
-          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateTransition" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']" iconPath="/my.project.design/icons/transition.png">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Transition" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']" iconPath="/my.project.design/icons/transition.png">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
