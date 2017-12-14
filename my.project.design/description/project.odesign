@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="project" version="12.0.0.2017041100">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="project" version="12.0.0.2017041100">
   <ownedViewpoints name="Grafcet" modelFileExtension="grafcet">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Grafcet Diagram" domainClass="Grafcet::Grafcet">
       <metamodel href="http://Grafcet.fr#/"/>
       <metamodel href="http://SimplStateMachineDC.fr#/"/>
       <defaultLayer name="Default">
         <nodeMappings name="StepNodeIni" semanticCandidatesExpression="aql:self.elements -> select(p | p.isInitial)" domainClass="Grafcet::Step">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" arcWidth="5" arcHeight="5" workspacePath="/my.project.design/icons/double.png">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" arcWidth="5" arcHeight="5" workspacePath="/my.project.design/icons/Sdouble.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="StepNode" semanticCandidatesExpression="aql:self.elements -> select(p | not(p.isInitial) and not(p.isActive))" domainClass="Grafcet::Step">
-          <style xsi:type="style:SquareDescription" borderSizeComputationExpression="2" showIcon="false" labelPosition="node" resizeKind="NSEW" width="5" height="5">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/S.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
           </style>
         </nodeMappings>
         <nodeMappings name="StepNodeActive" semanticCandidatesExpression="aql:self.elements -> select(p | not(p.isInitial) and (p.isActive))" domainClass="Grafcet::Step">
-          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/active.png">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/Sactive.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
@@ -46,6 +45,48 @@
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
+        <toolSections name="Tools">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateInitialStep" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeIni']" iconPath="/my.project.design/icons/Sdouble.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Grafcet::Step" referenceName="elements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="isInitial" valueExpression="true"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateActiveStep" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNodeActive']" iconPath="/my.project.design/icons/Sactive.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Grafcet::Step" referenceName="elements">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="isActive" valueExpression="true"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateStep" forceRefresh="true" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='StepNode']" iconPath="/my.project.design/icons/S.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Grafcet::Step" referenceName="elements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="CreateTransition" nodeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@nodeMappings[name='TransitionNode']" iconPath="/my.project.design/icons/transition.png">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="Grafcet::Transition" referenceName="elements"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
       </defaultLayer>
     </ownedRepresentations>
   </ownedViewpoints>
