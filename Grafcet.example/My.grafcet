@@ -4,10 +4,11 @@
   <elements xsi:type="Grafcet:Step" name="2" incomingConnections="//@elements.0" outgoingConnections="//@elements.2"/>
   <elements xsi:type="Grafcet:Step" location="" name="3" isActive="true"/>
   <elements xsi:type="Grafcet:Step" name="4" incomingConnections="//@elements.2" outgoingConnections="//@elements.0"/>
+  <elements xsi:type="Grafcet:Step" name="11"/>
   <elements xsi:type="Grafcet:Transition" name="tr1" condition="c1" incomingConnections="//@elements.0" outgoingConnections="//@elements.1"/>
   <elements xsi:type="Grafcet:Transition" name="tr2" condition="c2" incomingConnections="//@elements.1" outgoingConnections="//@elements.2"/>
   <elements xsi:type="Grafcet:Transition" name="tr3" condition="c3" incomingConnections="//@elements.2" outgoingConnections="//@elements.3"/>
   <elements xsi:type="Grafcet:Transition" location="" name="tr4" condition="c4" incomingConnections="//@elements.3" outgoingConnections="//@elements.0"/>
-  <elements xsi:type="Grafcet:Step" name="11"/>
-  <elements xsi:type="Grafcet:Transition" name="tr11" condition="c11" incomingConnections="//@elements.0" outgoingConnections="//@elements.8"/>
+  <elements xsi:type="Grafcet:Transition" name="tr11" condition="c11" incomingConnections="//@elements.0" outgoingConnections="//@elements.4"/>
+  <elements xsi:type="Grafcet:Transition" location="" name="tr14" condition="c14" incomingConnections="//@elements.4" outgoingConnections="//@elements.0"/>
 </Grafcet:Grafcet>
