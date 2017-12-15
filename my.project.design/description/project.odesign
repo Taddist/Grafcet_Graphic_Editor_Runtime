@@ -5,19 +5,19 @@
       <metamodel href="http://Grafcet.fr#/"/>
       <metamodel href="http://SimplStateMachineDC.fr#/"/>
       <defaultLayer name="Default">
-        <nodeMappings name="StepNodeIni" semanticCandidatesExpression="aql:self.elements -> select(p | p.isInitial)" domainClass="Grafcet::Step">
+        <nodeMappings name="StepNodeIni" semanticCandidatesExpression="aql:self.elements -> filter(Grafcet::Step) -> select(p | p.isInitial)" domainClass="Grafcet::Step">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" arcWidth="5" arcHeight="5" workspacePath="/my.project.design/icons/Sdouble.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="StepNode" semanticCandidatesExpression="aql:self.elements -> select(p | not(p.isInitial) and not(p.isActive))" domainClass="Grafcet::Step">
+        <nodeMappings name="StepNode" semanticCandidatesExpression="aql:self.elements -> filter(Grafcet::Step) -> select(p | not(p.isInitial) and not(p.isActive))" domainClass="Grafcet::Step">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/Step.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <nodeMappings name="StepNodeActive" semanticCandidatesExpression="aql:self.elements -> select(p | not(p.isInitial) and (p.isActive))" domainClass="Grafcet::Step">
+        <nodeMappings name="StepNodeActive" semanticCandidatesExpression="aql:self.elements -> filter(Grafcet::Step) -> select(p | not(p.isInitial) and (p.isActive))" domainClass="Grafcet::Step">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" labelPosition="node" resizeKind="NSEW" workspacePath="/my.project.design/icons/Sactive.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
