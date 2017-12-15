@@ -86,6 +86,28 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="RelationIn" forceRefresh="true" edgeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionIn']" iconPath="/my.project.design/icons/mapping.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="incomingConnections" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="RelationOut" edgeMappings="//@ownedViewpoints[name='Grafcet']/@ownedRepresentations[name='Grafcet%20Diagram']/@defaultLayer/@edgeMappings[name='transitionOut']" iconPath="/my.project.design/icons/mapping.png">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="outgoingConnections" valueExpression="var:target"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
         </toolSections>
       </defaultLayer>
     </ownedRepresentations>

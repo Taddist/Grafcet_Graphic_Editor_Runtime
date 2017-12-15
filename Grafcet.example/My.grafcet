@@ -11,4 +11,7 @@
   <elements xsi:type="Grafcet:Transition" location="" name="tr4" condition="c4" incomingConnections="//@elements.3" outgoingConnections="//@elements.0"/>
   <elements xsi:type="Grafcet:Transition" name="tr11" condition="c11" incomingConnections="//@elements.0" outgoingConnections="//@elements.4"/>
   <elements xsi:type="Grafcet:Transition" location="" name="tr14" condition="c14" incomingConnections="//@elements.4" outgoingConnections="//@elements.0"/>
+  <elements xsi:type="Grafcet:Step" isInitial="true"/>
+  <elements xsi:type="Grafcet:Transition"/>
+  <elements xsi:type="Grafcet:Step" isActive="true"/>
 </Grafcet:Grafcet>
